@@ -33,6 +33,7 @@ img.topLogo{
     padding-top: 150px;
 }
 
+
 .display-4{
  color: #A31A20
 }
@@ -48,3 +49,11 @@ img.topLogo{
     color: white;
     text-shadow: 1px 1px 1px black
 }
+
+.card{
+        background-color: #610f13;
+        float: left;
+        box-shadow: 1px 1px 1px black;
+        margin-right: 15px;
+        margin-top: 8px;
+    }
