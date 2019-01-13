@@ -1,0 +1,50 @@
+body{
+    background-color: #353a40;
+    color: white
+}
+img.topLogo{
+    width: 40%
+}
+
+.navbar{
+    border-bottom: #A31A20 3px solid;
+    opacity: 0.8
+}
+
+#home-section {
+    background: url(../Images/acropolis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+    text-align: right
+    }
+
+#home-section .dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    background-color: #a31a206b;
+}
+
+#home-section .home-inner{
+    padding-top: 150px;
+}
+
+.display-4{
+ color: #A31A20
+}
+
+.eng{
+    font-size: 80px;
+    color: white;
+    text-shadow: 1px 1px 1px black
+}
+
+.deliv{
+    font-size: 120px;
+    color: white;
+    text-shadow: 1px 1px 1px black
+}
