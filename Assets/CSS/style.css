@@ -60,7 +60,9 @@ right: 0
     position: relative;
     mix-blend-mode: color-burn;
 }
-
+#technology-head-section{
+    background-color: white;
+}
 .card{
         background-color: #610f13;
         float: left;
