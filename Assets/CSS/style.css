@@ -17,7 +17,8 @@ img.topLogo{
     background-size: cover;
     background-attachment: fixed;
     min-height: 700px;
-    text-align: right
+    text-align: right;
+    position: relative;
     }
 
 #home-section .dark-overlay{
@@ -32,22 +33,32 @@ img.topLogo{
 #home-section .home-inner{
     padding-top: 150px;
 }
-
+#engDev{
+position: absolute;
+bottom: 0;
+right: 0
+}
 
 .display-4{
  color: #A31A20
 }
 
 .eng{
-    font-size: 80px;
-    color: white;
-    text-shadow: 1px 1px 1px black
+    font-size: 120px;
+    color: #fff6f6;
+    text-shadow: 1px 1px 1px black;
+    bottom: -50px;
+    position: absolute;
+    top: -30px;
+    right: 50px;
 }
 
 .deliv{
-    font-size: 120px;
-    color: white;
-    text-shadow: 1px 1px 1px black
+    font-size: 200px;
+    color: #a31a20;
+    text-shadow: 1px 1px 1px black;
+    position: relative;
+    mix-blend-mode: color-burn;
 }
 
 .card{
