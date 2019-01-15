@@ -1,7 +1,4 @@
-      // Get the current year for the copyright
-      $("#year").text(new Date().getFullYear());
-
-      //ScrollSpy
+     //ScrollSpy
       $('body').scrollspy({target: '#main-nav'});
 
       $('#main-nav a').on('click', function(e){
@@ -17,3 +14,6 @@
           }
         
       });
+
+ // Get the current year for the copyright
+      $("#year").text(new Date().getFullYear());
