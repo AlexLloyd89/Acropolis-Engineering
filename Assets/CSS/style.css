@@ -16,7 +16,7 @@ img.topLogo{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    min-height: 700px;
+    min-height: 500px;
     text-align: right;
     }
 
@@ -25,7 +25,7 @@ img.topLogo{
     top: 0;
     left: 0;
     width: 100%;
-    min-height: 700px;
+    min-height: 500px;
     background-color: #a31a2033;
 }
 
@@ -63,7 +63,7 @@ right: 2%
     background-color: white;
 }
 .card{
-        background-color: #610f13;
+        background-color: #A31A20;
         float: left;
         box-shadow: 1px 1px 1px black;
         margin-right: 15px;
@@ -169,4 +169,14 @@ footer {
     line-height: 60px;
     color: white;
     text-align: center
+}
+
+a{
+    color: #a31a20;
+    padding: 0px 10px;
+
+}
+
+a:hover{
+    color:white
 }
