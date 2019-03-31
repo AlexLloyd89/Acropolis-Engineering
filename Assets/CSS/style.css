@@ -11,6 +11,7 @@ img.topLogo {
   opacity: 0.8;
 }
 
+
 #home-section {
   background: url(../Images/acropolis.jpg);
   background-repeat: no-repeat;
@@ -215,4 +216,78 @@ strong{
     color: #a31a20
 }
 
+
+.col-2dot4,
+.col-sm-2dot4,
+.col-md-2dot4,
+.col-lg-2dot4,
+.col-xl-2dot4 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-2dot4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+@media (min-width: 540px) {
+    .col-sm-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+   
+}
+@media (min-width: 720px) {
+    .col-md-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    
+}
+@media (min-width: 960px) {
+    .col-lg-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+@media (min-width: 1140px) {
+    .col-xl-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+@media (max-width: 768px){
+  .eng{
+    font-size: 70px;
+    right: 40px
+  }
+  .deliv{
+    font-size: 100px;
+  }
+  #engDev{
+    position: absolute;
+    bottom: 25%;
+    right: 5%
+  }
+
+ .navbar-brand{
+   display: contents
+ }
+ img.topLogo{
+   width: 40%
+ }
+}
 
