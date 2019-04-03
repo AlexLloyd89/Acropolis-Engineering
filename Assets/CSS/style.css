@@ -293,12 +293,17 @@ strong{
    width: 300px;
  }
  .alignme{
-   margin: auto
+   margin: auto;
+   padding-left: 0px !important
  }
+}
+.alignme{
+  padding-left: 10%
 }
 
 div#about{
-  align-items: center
+  align-items: center;
+  justify-content: space-between
 }
 
 iframe{
