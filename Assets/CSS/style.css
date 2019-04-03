@@ -289,5 +289,18 @@ strong{
  img.topLogo{
    width: 40%
  }
+ iframe{
+   width: 300px;
+ }
+ .alignme{
+   margin: auto
+ }
 }
 
+div#about{
+  align-items: center
+}
+
+iframe{
+  max-width: 560px;
+}
